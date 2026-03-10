@@ -1,8 +1,25 @@
 # Sistema de clasificación de consumo eléctrico - LowCost
 #MARIA FERNANDA TOLOSA ANGEL
-#213022_277
-#FUNDAMENTOS DE PROGRAMACION
-#PROGRAMA...
+#La empresa de energía “LowCost” necesita un sistema
+#que permita clasificar el consumo mensual en kWh y aplicar los
+#ajustes correspondientes en la facturación.
+#El programa debe:
+#1) Solicitar al usuario el consumo mensual en kWh.
+#2) Clasificar el consumo en:
+#- Bajo: menos de 150 kWh.
+#- Medio: entre 150 kWh y 350 kWh.
+#- Alto: más de 350 kWh.
+#3) Calcular el valor base del consumo usando el costo por kWh:
+#Costo por kWh = 𝟑𝟐𝟎. 𝟓 COP
+#4) Aplicar los ajustes:
+#a. Consumo bajo: descuento del 5%.
+#b. Consumo medio: sin ajuste.
+#c. Consumo alto: recargo del 12%
+#Salida esperada:
+#- Categoría del consumo.
+#- Valor base.
+#- Porcentaje de descuento o recargo aplicado.
+#- Valor final a pagar.
 #CODIGO FUENTE: AUTORIA PROPIA
 
 COSTO_KWH = 320.5  
@@ -35,4 +52,6 @@ else:
     print("Ajuste aplicado: 0%")
 
 print(f"Valor final a pagar: ${valor_final:,.2f}")
+
+#Realizado por Maria Fernanda Tolosa Angel.
 
