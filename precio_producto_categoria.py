@@ -1,0 +1,36 @@
+# Constante
+IVA = 0.19
+
+# Solicitar precio
+precio = float(input("Ingrese el precio base del producto: "))
+
+# Validar precio
+if precio <= 0:
+    print("Error: el precio debe ser mayor que 0 ❌")
+else:
+    # Solicitar categoría
+    print("\nSeleccione la categoría:")
+    print("1. Básico (sin IVA)")
+    print("2. Estándar (IVA 19%)")
+    print("3. Lujo (IVA 19% + 5% recargo)")
+    
+    categoria = input("Ingrese el código (1, 2 o 3): ")
+
+    # Calcular según categoría
+    if categoria == "1":
+        total = precio
+
+    elif categoria == "2":
+        total = precio + (precio * IVA)
+
+    elif categoria == "3":
+        total = precio + (precio * IVA) + (precio * 0.05)
+
+    else:
+        print("Error: categoría inválida ❌")
+        exit()
+
+    # Mostrar resultado
+    print("\n=== RESULTADO ===")
+    print(f"Precio base: ${precio}")
+    print(f"Valor final: ${total}")
