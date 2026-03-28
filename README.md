@@ -69,7 +69,3 @@ Fortalecer habilidades en lógica de programación mediante la solución de prob
 
 Este repositorio hace parte de mi proceso de aprendizaje en programación 💡
 Cada ejercicio representa un avance en mis habilidades.
-
-
-Este repositorio hace parte de mi proceso de aprendizaje en programación 💡
-Cada ejercicio representa un avance en mis habilidades.
