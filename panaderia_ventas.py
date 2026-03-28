@@ -3,6 +3,21 @@
 #FUNDAMENTOS DE PROGRAMACION
 #CODIGO FUENTE: AUTORIA PROPIA
 
+#Una panadería vende los siguientes productos:
+#Panes:
+#- Integral: $2.000
+#- Francés: $3.000
+#- Queso: $1.000
+#Pasteles:
+#- Chocolate: $6.000
+#- Manzana: $5.000
+#El programa debe:
+#- Mostrar los productos y precios.
+#- Permitir al cliente seleccionar cantidad por producto.
+#- Calcular el total a pagar.
+#- Si el total supera $10.000, aplicar descuento del 20%.
+#- Mostrar el total final después del descuento (si aplica).
+
 # Precios
 PAN_INTEGRAL = 2000
 PAN_FRANCES = 3000
@@ -49,3 +64,5 @@ print("\n=== FACTURA ===")
 print(f"Total sin descuento: ${total}")
 print(f"Descuento: ${descuento}")
 print(f"Total a pagar: ${total_final}")
+
+#Realizado por Maria Fernanda Tolosa Angel
