@@ -1,71 +1,49 @@
-# 💻 Variables, Constantes y Estructuras de Control
+💻 Variables, Constantes y Estructuras de Control
 
-## 📚 Descripción
+📚 Descripción
 
-Este repositorio contiene una serie de ejercicios desarrollados en Python 🐍 como parte del aprendizaje en programación.
-Se trabajan conceptos fundamentales como:
+Repositorio que contiene una serie de ejercicios desarrollados en Python 🐍, enfocados en el fortalecimiento de la lógica de programación y el uso de estructuras fundamentales.
 
-* Variables y constantes
-* Estructuras condicionales
-* Ciclos
-* Listas y matrices
-* Resolución de problemas
+Se abordan conceptos como:
 
----
+Variables y constantes
+Estructuras condicionales
+Ciclos
+Listas y matrices
+Resolución de problemas
+📂 Contenido
 
-## 📂 Contenido
+⚡ Problema 1 - Consumo de energía
+Clasificación del consumo mensual en kWh (bajo, medio, alto) y cálculo del valor a pagar, aplicando descuentos o recargos según el caso.
 
-### ⚡ Problema 1 - Consumo de energía
+🧸 Problema 2 - Juguetería
+Cálculo del peso total de un pedido en función de la cantidad de juguetes.
 
-Clasificación del consumo mensual en kWh (bajo, medio, alto) y cálculo del valor a pagar con descuentos o recargos.
+☕ Problema 3 - Cafetería
+Registro de ventas diarias y validación del cumplimiento de metas de ingresos.
 
-### 🧸 Problema 2 - Juguetería
+🛍️ Problema 4 - Categorías de productos
+Cálculo del precio final según el tipo de producto, incluyendo impuestos.
 
-Cálculo del peso total de un pedido según la cantidad de juguetes.
+🍞 Problema 5 - Panadería
+Sistema de ventas que calcula el total a pagar e implementa descuentos según condiciones definidas.
 
-### ☕ Problema 3 - Cafetería
+📊 Archivos incluidos
+consumo.py ⚡
+peso_envio_jugueteria.py 🧸
+ventas_cafeteria.py ☕
+precio_producto_categoria.py 🛍️
+panaderia_ventas.py 🍞
+🚀 Tecnologías utilizadas
+Python 🐍
+🎯 Objetivo
 
-Registro de ventas diarias y verificación de meta de ingresos.
+Fortalecer habilidades en lógica de programación mediante la resolución de problemas prácticos, aplicando estructuras de control y buenas prácticas en el desarrollo de código.
 
-### 🛍️ Problema 4 - Categorías de productos
+👩‍💻 Autor
 
-Cálculo del precio final según tipo de producto e impuestos.
+Maria Fernanda Tolosa Angel
 
-### 🍕 Problema 5 - Panadería
+✨ Notas
 
-Sistema de ventas con cálculo de total y aplicación de descuentos.
-
----
-
-## 📊 Archivos incluidos
-
-* `consumo.py` ⚡
-* `peso_envio_jugueteria.py` 🧸
-* `ventas_cafeteria.py` ☕
-* `precio_producto_categoria.py` 🛍️
-* `panaderia_ventas.py` 🍞
-
----
-
-## 🚀 Lenguaje utilizado
-
-* Python 🐍
-
----
-
-## 🎯 Objetivo
-
-Fortalecer habilidades en lógica de programación mediante la solución de problemas prácticos.
-
----
-
-## 👩‍💻 Autor
-
-**Maria Fernanda Tolosa Angel**
-
----
-
-## ✨ Notas
-
-Este repositorio hace parte de mi proceso de aprendizaje en programación 💡
-Cada ejercicio representa un avance en mis habilidades.
+Este repositorio forma parte de mi proceso de formación en desarrollo de software. Cada ejercicio representa un avance en mis habilidades de programación y pensamiento lógico.
